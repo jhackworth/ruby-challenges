@@ -43,4 +43,3 @@ message = case get_one_digit(birthdate)
             puts "This is the teacher. Number Nine is a tolerant, somewhat impractical, and sympathetic vibration. Ruled by Mars." 
           end
           
-puts message

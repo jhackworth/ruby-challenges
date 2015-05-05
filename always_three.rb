@@ -1,3 +1,5 @@
+# Turns any number to 3
+
 def make_three(n)
 	puts ((n + 5) * 2 - 4) / 2 - n
 end
