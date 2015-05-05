@@ -37,8 +37,8 @@ print "Ask the Magic 8-Ball Anything: "
 question = gets.chomp
 
 message = @client.account.messages.create(
-  from: "+1 415-599-2671",
-  to: "+1 512-897-5436",
+  from: "+1 #{twilio_number}",
+  to: "+1 #{my_number}",
   body: "You asked '#{question}'\nThe answer is: #{ball_answer2}"
 )
 
